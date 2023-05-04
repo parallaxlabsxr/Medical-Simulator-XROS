@@ -1,0 +1,145 @@
+Begin Object Class=/Script/Engine.Material Name="Mat_Glass_01"
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionScalarParameter'"Mat_Glass_01:MaterialExpressionScalarParameter_4"')
+      B=(Expression=MaterialExpressionScalarParameter'"Mat_Glass_01:MaterialExpressionScalarParameter_5"')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'"Mat_Glass_01:MaterialExpressionMaterialFunctionCall_0"')
+      MaterialExpressionEditorX=192
+      MaterialExpressionEditorY=576
+      MaterialExpressionGuid=F6EE0977477A721B7AF625A467D6704C
+      Material=Material'"Mat_Glass_01"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Fresnel_Function.Fresnel_Function"'
+      FunctionInputs(0)=(ExpressionInputId=35BEF4AB41753D388A755683266190FC,Input=(OutputIndex=-1,InputName="Normal Vector"))
+      FunctionInputs(1)=(ExpressionInputId=602CF93F4D5862AE7D44B9AFAE6928D1,Input=(OutputIndex=-1,InputName="Camera Vector"))
+      FunctionInputs(2)=(ExpressionInputId=C1DDB8394761ECBA18AAFA9FC8B6FDF4,Input=(OutputIndex=-1,InputName="Invert Fresnel"))
+      FunctionInputs(3)=(ExpressionInputId=D1BB60474A01A2C1FF76239030536DD6,Input=(OutputIndex=-1,InputName="Power"))
+      FunctionInputs(4)=(ExpressionInputId=5DF8894F4FF0173B79E6B2BE8CD4036A,Input=(OutputIndex=-1,InputName="Use Cheap contrast"))
+      FunctionInputs(5)=(ExpressionInputId=6B3E1E094AAE4B459EE37DB82522FEE1,Input=(OutputIndex=-1,InputName="Cheap contrast dark"))
+      FunctionInputs(6)=(ExpressionInputId=4FF6CF8944CC3B0DFF9720957A7239E7,Input=(OutputIndex=-1,InputName="Cheap contrast bright"))
+      FunctionInputs(7)=(ExpressionInputId=2A46423F488DF653B9E2AAA6FFAA8B07,Input=(OutputIndex=-1,InputName="Clamp Fresnel Dot Product"))
+      FunctionOutputs(0)=(ExpressionOutputId=4791466245EBCCB78FCD1F8826A758E7,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=704
+      MaterialExpressionGuid=32F4F497403888D443C961BC9A4B30A7
+      Material=Material'"Mat_Glass_01"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      SliderMax=1.000000
+      ParameterName="Reflectivity"
+      ExpressionGUID=306FF6154E084C015D4CAAB8958BB800
+      MaterialExpressionEditorX=-16
+      MaterialExpressionGuid=C55C067941982F4AB668FE9138101899
+      Material=Material'"Mat_Glass_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.500000
+      SliderMax=1.000000
+      ParameterName="Specular Power"
+      ExpressionGUID=01B518C845DECF4937C106B6CEA3760E
+      MaterialExpressionEditorX=-64
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=C55C067941982F4AB668FE9138101899
+      Material=Material'"Mat_Glass_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_14"
+      SliderMin=-1.000000
+      SliderMax=3.000000
+      ParameterName="Roughness Power"
+      ExpressionGUID=896522D34829133A10544C8AD3ED1EB1
+      MaterialExpressionEditorX=-112
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=631AC4CA4317F9F55942408447DB7BBD
+      Material=Material'"Mat_Glass_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=0.500000
+      SliderMax=1.000000
+      ParameterName="Opaciti"
+      ExpressionGUID=A621CF95491856B7DC7D3C8659295C35
+      MaterialExpressionEditorX=-80
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=C55C067941982F4AB668FE9138101899
+      Material=Material'"Mat_Glass_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=1.010000
+      ParameterName="Refraction Front"
+      ExpressionGUID=6F7F13FA42B3084A37A1A1B54350218A
+      MaterialExpressionEditorX=-96
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=EA2A528643A45F4E1052CB8794F6CDD7
+      Material=Material'"Mat_Glass_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=1.300000
+      ParameterName="Refraction Sides"
+      ExpressionGUID=BF8C7AAA41E029AD2D7475AA81B70949
+      MaterialExpressionEditorX=-96
+      MaterialExpressionEditorY=576
+      MaterialExpressionGuid=A5B687364D085D0C5B8D31A2FF185FFB
+      Material=Material'"Mat_Glass_01"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.660000,G=0.597483,B=0.590907,A=1.000000)
+      ParameterName="Glass Color"
+      ExpressionGUID=2E17B9E147773E173DFF9A8785DF23CE
+      MaterialExpressionEditorX=144
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=C3DB58EE48BA94D93C44F6803B1999E8
+      Material=Material'"Mat_Glass_01"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Specular=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_14"')
+   Normal=(OutputIndex=1)
+   Opacity=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"')
+   BlendMode=BLEND_Translucent
+   Refraction=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"')
+   TranslucencyLightingMode=TLM_Surface
+   bUsedWithStaticLighting=True
+   bUsedWithSplineMeshes=True
+   bUsesDistortion=True
+   EditorX=496
+   EditorY=64
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(3)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_14"'
+   Expressions(4)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(5)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(6)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(7)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(8)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=630AAFC64FCAEB41427DA1B0647A6953
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(58140947015519558,5547136702653166745,7426340651617874113,12548461468192101449,17206231977484487121,17394455254435830951),ParameterInfos=((Name="Specular Power"),(Name="Refraction Front"),(Name="Refraction Sides"),(Name="Reflectivity"),(Name="Roughness Power"),(Name="Opaciti")),ExpressionGuids=(01B518C845DECF4937C106B6CEA3760E,6F7F13FA42B3084A37A1A1B54350218A,BF8C7AAA41E029AD2D7475AA81B70949,306FF6154E084C015D4CAAB8958BB800,896522D34829133A10544C8AD3ED1EB1,A621CF95491856B7DC7D3C8659295C35)),RuntimeEntries[1]=(NameHashes=(13534706430810194062),ParameterInfos=((Name="Glass Color")),ExpressionGuids=(2E17B9E147773E173DFF9A8785DF23CE)),ScalarValues=(0.500000,1.010000,1.300000,1.000000,0.000000,0.500000),VectorValues=((R=0.660000,G=0.597483,B=0.590907,A=1.000000)),ScalarMinMaxValues=((X=0.000000,Y=1.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=1.000000),(X=-1.000000,Y=3.000000),(X=0.000000,Y=1.000000)),ScalarCurveValues=(None,None,None,None,None,None),ScalarCurveAtlasValues=(None,None,None,None,None,None),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),FunctionInfos=((StateId=72C547B3457AA083E55C2994C3F1418D,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Fresnel_Function.Fresnel_Function"')),QualityLevelsUsed=(False,False,False,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=B7FC09814487DEBAA0DAB2A5C47D744D
+End Object

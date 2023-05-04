@@ -1,0 +1,28 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Window_01"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=92FBA51E47B133B4DAC65393411C1A51
+   Parent=Material'"/Game/Hospital/Materials/Mat_Base_02.Mat_Base_02"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="MaxRough (Green Channel)"),ParameterValue=0.895238,ExpressionGUID=AF3A36474E301CAF55909C910F84116E)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="MinRough (Green Channel)"),ExpressionGUID=E78A1DFE438C855FFD313984212C92F3)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Normal Power"),ParameterValue=0.380953,ExpressionGUID=A2CEA86049AC8FA4DEBF3B8AD0238247)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="AO/Rough/Met"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Window_01_ARM.Tex_Window_01_ARM"',ExpressionGUID=36FAB72742CFE806D34C88B553C404E8)
+   TextureParameterValues(1)=(ParameterInfo=(Name="BaseColor"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Window_01_D.Tex_Window_01_D"',ExpressionGUID=B2F7D6BD45FB3F5183CBF1A69EF6BFB6)
+   TextureParameterValues(2)=(ParameterInfo=(Name="ID"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Window_01_ID.Tex_Window_01_ID"',ExpressionGUID=D046DE0648B6B70C10D334B7E64E09C6)
+   TextureParameterValues(3)=(ParameterInfo=(Name="Normal Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Window_01_N.Tex_Window_01_N"',ExpressionGUID=396F4F584032FB476E18C78531BBA06B)
+   BasePropertyOverrides=(bOverride_TwoSided=True,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=638BB3A94353B96A2DFDED81F338D539
+   ReferencedTextureGuids(1)=1A4C3BB047CD67A42288AABE75F6CE08
+   ReferencedTextureGuids(2)=3715AF6647717A8798FFE0A5AF19B0D4
+   ReferencedTextureGuids(3)=13490ED346B452DA652747B0558D3A27
+   ReferencedTextureGuids(4)=015BFCDE44848A1F1DA167B0586AD5B0
+   CachedReferencedTextures(0)=Texture2D'"/Game/Hospital/Textures/Tex_Base_R.Tex_Base_R"'
+   CachedReferencedTextures(1)=None
+   CachedReferencedTextures(2)=Texture2D'"/Game/Hospital/Textures/Tex_Base_D.Tex_Base_D"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Hospital/Textures/Tex_Base_N.Tex_Base_N"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=5F790A5F4820B083DB28539EEF5B8D54
+End Object

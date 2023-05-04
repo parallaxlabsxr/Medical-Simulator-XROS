@@ -1,0 +1,15 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Bulb_Negatoscope"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=CE4E5A8C4FADB50C7D1981874839CA2F
+   Parent=Material'"/Game/Hospital/Materials/Mat_Bulb_01_Base.Mat_Bulb_01_Base"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Power glow"),ParameterValue=3.500000,ExpressionGUID=1400F54344FDA5A2C90D829B4EAD878E)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Roughness"),ParameterValue=0.500000,ExpressionGUID=CD4C93EF4BB4663A34718AA4E5F7B51A)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.337729,G=0.360944,B=0.364583,A=0.000000),ExpressionGUID=5B9BFB054A1A350A2AC451A2B734A23E)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=91274AC84121F847CF0E9D8DCC71DF73
+End Object

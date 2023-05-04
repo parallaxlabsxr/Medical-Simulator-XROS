@@ -1,0 +1,100 @@
+Begin Object Class=/Script/Engine.Material Name="Mat_HDRISky"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionRotateAboutAxis Name="MaterialExpressionRotateAboutAxis_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionRotateAboutAxis'"Mat_HDRISky:MaterialExpressionRotateAboutAxis_0"')
+      B=(Expression=MaterialExpressionWorldPosition'"Mat_HDRISky:MaterialExpressionWorldPosition_0"')
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=F5873128413228599A916285EF235559
+      Material=Material'"Mat_HDRISky"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.100000
+      MaterialExpressionEditorX=-1296
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=99819ED04328BBDA89C812B95C133D46
+      Material=Material'"Mat_HDRISky"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      MaterialExpressionEditorX=-1296
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=2178A11E48533F979DA40092E4FECC43
+      Material=Material'"Mat_HDRISky"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.000000,G=0.000000,B=1.000000,A=1.000000)
+      MaterialExpressionEditorX=-1312
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=A36913DA47B00CF56D948FB5B36BF394
+      Material=Material'"Mat_HDRISky"'
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_0"
+      VectorInput=(Expression=MaterialExpressionAdd'"Mat_HDRISky:MaterialExpressionAdd_0"')
+      MaterialExpressionEditorX=-518
+      MaterialExpressionEditorY=-23
+      MaterialExpressionGuid=F551248C405FD562F56797836BF7E75E
+      Material=Material'"Mat_HDRISky"'
+   End Object
+   Begin Object Name="MaterialExpressionRotateAboutAxis_0"
+      NormalizedRotationAxis=(Expression=MaterialExpressionConstant3Vector'"Mat_HDRISky:MaterialExpressionConstant3Vector_0"')
+      RotationAngle=(Expression=MaterialExpressionConstant'"Mat_HDRISky:MaterialExpressionConstant_0"')
+      PivotPoint=(Expression=MaterialExpressionConstant'"Mat_HDRISky:MaterialExpressionConstant_1"')
+      Position=(Expression=MaterialExpressionWorldPosition'"Mat_HDRISky:MaterialExpressionWorldPosition_0"')
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=FE7460194D946F03D6389485F94BDCAF
+      Material=Material'"Mat_HDRISky"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionNormalize'"Mat_HDRISky:MaterialExpressionNormalize_0"')
+      Texture=TextureCube'"/Game/Hospital/Textures/Tex_Clear_Sky_HDRI.Tex_Clear_Sky_HDRI"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=AEC8F72D43C8DD4F00E8058D9560887A
+      Material=Material'"Mat_HDRISky"'
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_0"
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=6C7A3694479321A46EE2D4AC91AF4E23
+      Material=Material'"Mat_HDRISky"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   ShadingModel=MSM_Unlit
+   ShadingModels=(ShadingModelField=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionWorldPosition'"MaterialExpressionWorldPosition_0"'
+   Expressions(1)=MaterialExpressionRotateAboutAxis'"MaterialExpressionRotateAboutAxis_0"'
+   Expressions(2)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   Expressions(3)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   Expressions(4)=MaterialExpressionNormalize'"MaterialExpressionNormalize_0"'
+   Expressions(5)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   Expressions(6)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   Expressions(7)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=7E4AB22449203017308228B28333FF98
+   CachedExpressionData=(ReferencedTextures=(TextureCube'"/Game/Hospital/Textures/Tex_Clear_Sky_HDRI.Tex_Clear_Sky_HDRI"'),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=D20CC814474EB6D714C111AAF1C15445
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=FC17E5284775171BDF74DEB05A547DCA
+End Object

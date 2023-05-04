@@ -1,0 +1,277 @@
+Begin Object Class=/Script/Engine.Material Name="Mat_Glass_02"
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_2"
+      A=(Expression=MaterialExpressionScalarParameter'"Mat_Glass_02:MaterialExpressionScalarParameter_7"')
+      B=(Expression=MaterialExpressionScalarParameter'"Mat_Glass_02:MaterialExpressionScalarParameter_7"')
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=662817E9463DDF6E95CC5BA33CF15E3A
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_3"
+      A=(Expression=MaterialExpressionAppendVector'"Mat_Glass_02:MaterialExpressionAppendVector_2"')
+      B=(Expression=MaterialExpressionConstant'"Mat_Glass_02:MaterialExpressionConstant_1"')
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=662817E9463DDF6E95CC5BA33CF15E3A
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      MaterialExpressionEditorX=-528
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=DF6A6E17423B4FF48FCC16BDD319E216
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"'
+      FunctionInputs(0)=(ExpressionInputId=45DE7CC04BCC975C664A2AA5DA134FEF,Input=(Expression=MaterialExpressionMultiply'"Mat_Glass_02:MaterialExpressionMultiply_2"',InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9B6953874136DCE4D8E4E8878152CCCE,Input=(OutputIndex=-1,InputName="Rotation Center"))
+      FunctionInputs(2)=(ExpressionInputId=D58F67D84CFD4C9D289810AEE4A3EBC8,Input=(Expression=MaterialExpressionScalarParameter'"Mat_Glass_02:MaterialExpressionScalarParameter_6"',InputName="Rotation Angle (0-1)"))
+      FunctionOutputs(0)=(ExpressionOutputId=35E8F8F94CC8CE3D65F114A234D0BD5E,Output=(OutputName="Rotated Values"))
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionGuid=EF2A8CC14B4F5A6D93C702A5CACC5518
+      Material=Material'"Mat_Glass_02"'
+      Outputs(0)=(OutputName="Rotated Values")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_3"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/MultiplyAdd.MultiplyAdd"'
+      FunctionInputs(0)=(ExpressionInputId=6365A65843D5BF2AAE06679A5164DD8F,Input=(Expression=MaterialExpressionTextureSample'"Mat_Glass_02:MaterialExpressionTextureSample_1"',InputName="Base",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=FD8EE93F41DE641FB6C1DF8FFBD146A4,Input=(Expression=MaterialExpressionAppendVector'"Mat_Glass_02:MaterialExpressionAppendVector_3"',InputName="Add"))
+      FunctionOutputs(0)=(ExpressionOutputId=91B53E9B42980001E4BCF6860281A1E4,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=73939041441A9B24722BD0AB5198C40F
+      Material=Material'"Mat_Glass_02"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionTextureSample'"Mat_Glass_02:MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'"Mat_Glass_02:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=288
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=9C7617EE4D1FC72E4EDC0291EA485697
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionTextureSample'"Mat_Glass_02:MaterialExpressionTextureSample_0"',OutputIndex=4,Mask=1,MaskA=1)
+      B=(Expression=MaterialExpressionScalarParameter'"Mat_Glass_02:MaterialExpressionScalarParameter_3"')
+      MaterialExpressionEditorX=224
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=E0B8D0E6427E81FCCC3A688FB55A7EB6
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionTextureCoordinate'"Mat_Glass_02:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"Mat_Glass_02:MaterialExpressionScalarParameter_2"')
+      MaterialExpressionEditorX=-1488
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=024BF4D4465461B68C2F0887275C41CD
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_8"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'"Mat_Glass_02:MaterialExpressionTextureSampleParameter2D_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionScalarParameter'"Mat_Glass_02:MaterialExpressionScalarParameter_8"')
+      MaterialExpressionEditorX=-784
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=EBA0CFA14E1C0682E1D002898DAE4224
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.500000
+      SliderMax=1.000000
+      ParameterName="Specular Power"
+      ExpressionGUID=01B518C845DECF4937C106B6CEA3760E
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=C55C067941982F4AB668FE9138101899
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=1.000000
+      ParameterName="Scale"
+      ExpressionGUID=890A98484E35A66634B097B5F3090F54
+      MaterialExpressionEditorX=-1648
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=52CA112144C6823F03D967AE6A247044
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=0.500000
+      SliderMax=1.000000
+      ParameterName="Opaciti"
+      ExpressionGUID=A621CF95491856B7DC7D3C8659295C35
+      MaterialExpressionEditorX=-32
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=C55C067941982F4AB668FE9138101899
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_6"
+      SliderMax=0.500000
+      ParameterName="Turn"
+      ExpressionGUID=4F7638394E4AA1FCEA70A183A0ECCD66
+      MaterialExpressionEditorX=-1472
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=62F7D78745E4190B18895D8993E8BE58
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_7"
+      SliderMin=-2.000000
+      SliderMax=1.000000
+      ParameterName="Normal Power"
+      ExpressionGUID=C2CA79DC43CED52781C6C2AB6D27F3FC
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=631AC4CA4317F9F55942408447DB7BBD
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=0.250000
+      ParameterName="Roughness"
+      ExpressionGUID=AC3CB30B4BDF356DAB6ACD86425E82C2
+      Group="Glass"
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=1F86A0AE4074C340F36C6CA8616086EB
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-1648
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=25BA0C7C43485BAC7978459A872A81EB
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"Mat_Glass_02:MaterialExpressionMaterialFunctionCall_1"')
+      Texture=Texture2D'"/Game/Hospital/Textures/Tex_Glass_D_01.Tex_Glass_D_01"'
+      MaterialExpressionEditorX=-128
+      MaterialExpressionEditorY=-432
+      MaterialExpressionGuid=30D2345E4FB69959BF52FC92E7BB080D
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"Mat_Glass_02:MaterialExpressionMaterialFunctionCall_1"')
+      Texture=Texture2D'"/Game/Hospital/Textures/Tex_Glass_N_01.Tex_Glass_N_01"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-752
+      MaterialExpressionGuid=893700E8453896430267E580E6F88BAB
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"Mat_Glass_02:MaterialExpressionMaterialFunctionCall_1"')
+      Texture=Texture2D'"/Game/Hospital/Textures/Tex_Glass_R_01.Tex_Glass_R_01"'
+      MaterialExpressionEditorX=-1024
+      MaterialExpressionEditorY=608
+      MaterialExpressionGuid=74B2379E46FB180EDD139C923951650B
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="Roughness Map"
+      ExpressionGUID=75D660CF41949F7721794C84985C067E
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"Mat_Glass_02:MaterialExpressionMaterialFunctionCall_1"')
+      Texture=Texture2D'"/Game/Hospital/Textures/Tex_Roughness_01_R.Tex_Roughness_01_R"'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=D0AB134F48815633C5643CBDFC13F264
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.660000,G=0.597483,B=0.590907,A=1.000000)
+      ParameterName="Glass Color"
+      ExpressionGUID=2E17B9E147773E173DFF9A8785DF23CE
+      MaterialExpressionEditorX=-128
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=C3DB58EE48BA94D93C44F6803B1999E8
+      Material=Material'"Mat_Glass_02"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=1,Mask=1,MaskR=1)
+   Specular=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   Roughness=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_8"')
+   Normal=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_3"')
+   Opacity=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"')
+   BlendMode=BLEND_Translucent
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=3,Mask=1,MaskB=1)
+   TranslucencyLightingMode=TLM_Surface
+   bUsedWithStaticLighting=True
+   bUsedWithSplineMeshes=True
+   EditorX=496
+   EditorY=64
+   Expressions(0)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(3)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_3"'
+   Expressions(4)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(5)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(6)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(7)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(8)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(9)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(10)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(11)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(12)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(13)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_6"'
+   Expressions(14)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_7"'
+   Expressions(15)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_2"'
+   Expressions(16)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_3"'
+   Expressions(17)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   Expressions(18)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_8"'
+   Expressions(19)=MaterialExpressionMultiply'"MaterialExpressionMultiply_8"'
+   Expressions(20)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="Glass")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=56BCA34B4479362F81E504A943ABCA21
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(58140947015519558,440574345582452634,3125094761990066229,8394684900550694966,17394455254435830951,17617841847757378482),ParameterInfos=((Name="Specular Power"),(Name="Roughness"),(Name="Turn"),(Name="Scale"),(Name="Opaciti"),(Name="Normal Power")),ExpressionGuids=(01B518C845DECF4937C106B6CEA3760E,AC3CB30B4BDF356DAB6ACD86425E82C2,4F7638394E4AA1FCEA70A183A0ECCD66,890A98484E35A66634B097B5F3090F54,A621CF95491856B7DC7D3C8659295C35,C2CA79DC43CED52781C6C2AB6D27F3FC)),RuntimeEntries[1]=(NameHashes=(13534706430810194062),ParameterInfos=((Name="Glass Color")),ExpressionGuids=(2E17B9E147773E173DFF9A8785DF23CE)),RuntimeEntries[2]=(NameHashes=(12857728995038144037),ParameterInfos=((Name="Roughness Map")),ExpressionGuids=(75D660CF41949F7721794C84985C067E)),ScalarValues=(0.500000,0.250000,0.000000,1.000000,0.500000,0.000000),VectorValues=((R=0.660000,G=0.597483,B=0.590907,A=1.000000)),TextureValues=(Texture2D'"/Game/Hospital/Textures/Tex_Roughness_01_R.Tex_Roughness_01_R"'),ScalarMinMaxValues=((X=0.000000,Y=1.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.500000),(X=0.000000,Y=0.000000),(X=0.000000,Y=1.000000),(X=-2.000000,Y=1.000000)),ScalarCurveValues=(None,None,None,None,None,None),ScalarCurveAtlasValues=(None,None,None,None,None,None),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False),TextureChannelNameValues=(())),ReferencedTextures=(Texture2D'"/Game/Hospital/Textures/Tex_Glass_R_01.Tex_Glass_R_01"',Texture2D'"/Game/Hospital/Textures/Tex_Glass_D_01.Tex_Glass_D_01"',Texture2D'"/Game/Hospital/Textures/Tex_Glass_N_01.Tex_Glass_N_01"',Texture2D'"/Game/Hospital/Textures/Tex_Roughness_01_R.Tex_Roughness_01_R"'),FunctionInfos=((StateId=270427584D037C386A8326BA756B6AEF,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/MultiplyAdd.MultiplyAdd"'),(StateId=E572D701496E6D38CC53A5BDC450B0ED,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"')),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=DC2D051346C2FDFB1351969A9786FADD
+   ReferencedTextureGuids(1)=0308515A444DE276E7EBE49C27B6F144
+   ReferencedTextureGuids(2)=39D455634F1ED9AE6F0D1FBE55489170
+   ReferencedTextureGuids(3)=027790CF4844AB45AD8A90B137864AFB
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=F2D11CFD4270DA77C2306684F6EC1D82
+End Object

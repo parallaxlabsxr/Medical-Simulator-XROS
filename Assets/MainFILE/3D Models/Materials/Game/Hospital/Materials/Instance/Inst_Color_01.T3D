@@ -1,0 +1,14 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Color_01"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=D6265B6F4169B97017D54BB0C55C53E1
+   Parent=Material'"/Game/Hospital/Materials/Mat_Base_04.Mat_Base_04"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Roughness"),ExpressionGUID=5D733749424D19EA58853C9B40F540B1)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000),ExpressionGUID=AFCC77A74E701581A8BA0398E2C77936)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=89A4A01F4021075411D3E9A593462C62
+End Object

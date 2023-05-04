@@ -1,0 +1,45 @@
+# Written by MakeHuman 1.2.0 final
+version v1.2.0
+camera 9.5 352.0 -0.021125637213464506 0.8905943172140477 0.5897174994357165 0.8999999999999996
+modifier head/head-age-decr|incr -0.084000
+modifier head/head-fat-decr|incr -0.148000
+modifier head/head-oval 0.161000
+modifier head/head-round 0.071000
+modifier head/head-rectangular 0.077000
+modifier head/head-square 0.065000
+modifier torso/torso-scale-depth-decr|incr 0.110000
+modifier torso/torso-scale-horiz-decr|incr 0.122000
+modifier torso/torso-scale-vert-decr|incr 0.032000
+modifier torso/torso-trans-backward|forward -0.020000
+modifier torso/torso-muscle-dorsi-decr|incr 0.046000
+modifier torso/torso-muscle-pectoral-decr|incr 0.032000
+modifier breast/BreastSize 0.500000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Gender 1.000000
+modifier macrodetails/Age 0.845000
+modifier macrodetails/African 0.000000
+modifier macrodetails/Asian 0.000000
+modifier macrodetails/Caucasian 1.000000
+modifier macrodetails-universal/Muscle 0.877000
+modifier macrodetails-universal/Weight 0.710000
+modifier macrodetails-height/Height 0.548000
+modifier macrodetails-proportions/BodyProportions 0.568000
+tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
+teeth Teeth_Shape05 c6096ff1-46b6-4fdf-b992-49c1bc67f18b
+proxy male_generic df01ef58-b37f-479e-9f97-b4c1b9626aa8
+hair short02 c104cd4a-1edc-43f9-8b94-f63345a44638
+eyelashes Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2
+skeleton default.mhskel
+eyebrows eyebrow008 79ea307f-a942-40dd-bf50-bbaa41f02034
+eyes HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6
+pose standing02.bvh
+clothesHideFaces True
+expression sleep01.mhpose
+skinMaterial skins/old_caucasian_male/old_caucasian_male.mhmat
+material short02 c104cd4a-1edc-43f9-8b94-f63345a44638 short02.mhmat
+material HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6 eyes/materials/brown.mhmat
+material eyebrow008 79ea307f-a942-40dd-bf50-bbaa41f02034 eyebrow008.mhmat
+material Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2 eyelashes01.mhmat
+material Teeth_Shape05 c6096ff1-46b6-4fdf-b992-49c1bc67f18b teeth/materials/teeth.mhmat
+material tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c tongue01.mhmat
+subdivide False

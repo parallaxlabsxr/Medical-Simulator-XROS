@@ -1,0 +1,25 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Bulb_03"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=3523D8F2451567D86A7B4B85B9E716ED
+   Parent=Material'"/Game/Hospital/Materials/Mat_Bulb_02_Base.Mat_Bulb_02_Base"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Normal Power"),ParameterValue=0.171429,ExpressionGUID=23DFFD7F482943974B37878077C503BA)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Power glow"),ExpressionGUID=1400F54344FDA5A2C90D829B4EAD878E)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Roughness"),ParameterValue=0.304762,ExpressionGUID=CD4C93EF4BB4663A34718AA4E5F7B51A)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.876194,G=0.919484,B=0.989583,A=0.000000),ExpressionGUID=5B9BFB054A1A350A2AC451A2B734A23E)
+   VectorParameterValues(1)=(ParameterInfo=(Name="Color_Diffuse"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ExpressionGUID=AD599EB2429F37A3F1AF02843EB8B412)
+   TextureParameterValues(0)=(ParameterInfo=(Name="Diffuse Map_1"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Armstrong_Lamp_02_D.Tex_Armstrong_Lamp_02_D"',ExpressionGUID=757C01D24455AA9B189AF89F986BA7CA)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Armstrong_Lamp_N.Tex_Armstrong_Lamp_N"',ExpressionGUID=591A939C4CA3121DEF651CB92E2A76E3)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=638BB3A94353B96A2DFDED81F338D539
+   ReferencedTextureGuids(1)=B7E0D667438EE63E15DE8B82D3E968BB
+   ReferencedTextureGuids(2)=F0121E3F438C0E0B0D8B7D89F404CB59
+   CachedReferencedTextures(0)=None
+   CachedReferencedTextures(1)=Texture2D'"/Game/Hospital/Textures/Tex_Base_D.Tex_Base_D"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Hospital/Textures/Tex_Base_N.Tex_Base_N"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=9C1F033F41A1899C3ED14A9F20A60621
+End Object

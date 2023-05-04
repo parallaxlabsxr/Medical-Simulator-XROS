@@ -1,0 +1,38 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Trash_Can_01"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=88CC08364B3A7C94A51081B4F328D788
+   Parent=Material'"/Game/Hospital/Materials/Mat_Base_02.Mat_Base_02"'
+   ScalarParameterValues(0)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MaxRough (Blue Channel)"),ParameterValue=0.516666,ExpressionGUID=59064C5E40AAA9F704B13BB091F19376)
+   ScalarParameterValues(1)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MaxRough (Green Channel)"),ParameterValue=0.228571,ExpressionGUID=AF3A36474E301CAF55909C910F84116E)
+   ScalarParameterValues(2)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MaxRough (Red Channel)"),ParameterValue=0.304762,ExpressionGUID=821517014269BB8BC276918632A78A8F)
+   ScalarParameterValues(3)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MinRough (Blue Channel)"),ParameterValue=0.361905,ExpressionGUID=5F1EFFDE4BF889537CA3489BA9A4C5A5)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="MinRough (Green Channel)"),ParameterValue=0.314286,ExpressionGUID=E78A1DFE438C855FFD313984212C92F3)
+   ScalarParameterValues(5)=(ParameterInfo=(Name="MinRough (Red Channel)"),ParameterValue=0.190477,ExpressionGUID=61C4D24B4F6EE26C8064D4A6492A464E)
+   ScalarParameterValues(6)=(ParameterInfo=(Name="Normal Power"),ExpressionGUID=A2CEA86049AC8FA4DEBF3B8AD0238247)
+   ScalarParameterValues(7)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color (Red Channel)"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ExpressionGUID=C72261D54DFFAEC0453FCB83116144E8)
+   VectorParameterValues(1)=(ParameterInfo=(Name="Color(Green Channel)"),ParameterValue=(R=0.012527,G=0.015625,B=0.012451,A=1.000000),ExpressionGUID=9884242C4E6F39F78E8A1EBB295870D9)
+   TextureParameterValues(0)=(ParameterInfo=(Name="AO/Rough/Met"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Trash_Can_01_ARM.Tex_Trash_Can_01_ARM"',ExpressionGUID=36FAB72742CFE806D34C88B553C404E8)
+   TextureParameterValues(1)=(ParameterInfo=(Name="BaseColor"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Trash_Can_01_D.Tex_Trash_Can_01_D"',ExpressionGUID=B2F7D6BD45FB3F5183CBF1A69EF6BFB6)
+   TextureParameterValues(2)=(ParameterInfo=(Name="ID"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Trash_Can_01_ID.Tex_Trash_Can_01_ID"',ExpressionGUID=D046DE0648B6B70C10D334B7E64E09C6)
+   TextureParameterValues(3)=(ParameterInfo=(Name="Normal Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Trash_Can_01_N.Tex_Trash_Can_01_N"',ExpressionGUID=396F4F584032FB476E18C78531BBA06B)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=638BB3A94353B96A2DFDED81F338D539
+   ReferencedTextureGuids(1)=6CEA07474944B1F243CA84BB59C1ACC7
+   ReferencedTextureGuids(2)=4940AB044855A681BDDF04974BE351A6
+   ReferencedTextureGuids(3)=2A0199FB439980BC99C49595F0771863
+   ReferencedTextureGuids(4)=DF5F4AA749EDF28E58D5659B04FF437F
+   CachedReferencedTextures(0)=Texture2D'"/Game/Hospital/Textures/Tex_Base_R.Tex_Base_R"'
+   CachedReferencedTextures(1)=None
+   CachedReferencedTextures(2)=Texture2D'"/Game/Hospital/Textures/Tex_Base_D.Tex_Base_D"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Hospital/Textures/Tex_Base_N.Tex_Base_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Tex_Trash_Can_01_ARM",TextureReference=/Game/Hospital/Textures/Tex_Trash_Can_01_ARM.Tex_Trash_Can_01_ARM)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Tex_Trash_Can_01_D",TextureReference=/Game/Hospital/Textures/Tex_Trash_Can_01_D.Tex_Trash_Can_01_D)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Tex_Trash_Can_01_N",TextureReference=/Game/Hospital/Textures/Tex_Trash_Can_01_N.Tex_Trash_Can_01_N)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=781444C142DFC3B7BD16E990D4171EA4
+End Object

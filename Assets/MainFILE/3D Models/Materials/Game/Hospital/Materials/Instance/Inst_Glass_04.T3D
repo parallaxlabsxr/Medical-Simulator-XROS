@@ -1,0 +1,21 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Glass_04"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=5754AF634585E18853A7E187795C06D0
+   Parent=Material'"/Game/Hospital/Materials/Mat_Glass_03.Mat_Glass_03"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Opasity Front"),ParameterValue=-0.133388,ExpressionGUID=33F10989451019549B33529C78D65F42)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Opasity Side"),ParameterValue=2.221873,ExpressionGUID=D63BD2D5455620F9615951891035F18A)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Power"),ParameterValue=2.741723,ExpressionGUID=30992798440EDBFAA43032B12820AAF3)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="Reflection Front"),ParameterValue=0.226583,ExpressionGUID=E845530C449A6D5D387F06B4705B21F7)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="Reflection Side"),ParameterValue=0.770718,ExpressionGUID=812F4D3E4D4BF269A36E098A7C394912)
+   ScalarParameterValues(5)=(ParameterInfo=(Name="Refraction  Side"),ParameterValue=2.845924,ExpressionGUID=89E57C43413B6EB3BD3F739923A96B59)
+   ScalarParameterValues(6)=(ParameterInfo=(Name="Refraction Front"),ParameterValue=0.797355,ExpressionGUID=E684CD034F1E8D741FC050A9CECB8FA4)
+   ScalarParameterValues(7)=(ParameterInfo=(Name="Roughness"),ParameterValue=0.123810,ExpressionGUID=8E6F227A43DF060624CBEC86BA722D55)
+   ScalarParameterValues(8)=(ParameterInfo=(Name="RefractionDepthBias"),ParameterValue=6.082927)
+   VectorParameterValues(0)=(ParameterInfo=(Name="Glass Color"),ParameterValue=(R=0.628319,G=0.866886,B=0.942708,A=1.000000),ExpressionGUID=2E17B9E147773E173DFF9A8785DF23CE)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=27B4D56B4667912C3F4C08A9132A29BF
+End Object

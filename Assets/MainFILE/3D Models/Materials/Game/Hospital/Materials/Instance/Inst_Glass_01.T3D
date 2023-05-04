@@ -1,0 +1,17 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Glass_01"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=37F2C7A94DFF6268B5EAF592FCE0B83F
+   Parent=Material'"/Game/Hospital/Materials/Mat_Glass_01.Mat_Glass_01"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Opaciti"),ParameterValue=0.295238,ExpressionGUID=A621CF95491856B7DC7D3C8659295C35)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Refraction Front"),ParameterValue=1.010000,ExpressionGUID=6F7F13FA42B3084A37A1A1B54350218A)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Refraction Sides"),ParameterValue=0.979847,ExpressionGUID=BF8C7AAA41E029AD2D7475AA81B70949)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="Roughness Power"),ParameterValue=0.100000,ExpressionGUID=896522D34829133A10544C8AD3ED1EB1)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Glass Color"),ParameterValue=(R=0.372086,G=0.359701,B=0.406250,A=1.000000),ExpressionGUID=2E17B9E147773E173DFF9A8785DF23CE)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=6B3853A7461DC1831CD84ABA0FBF6196
+End Object

@@ -1,0 +1,14 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Bulb_01"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=53AB500047AC59F9268CE28539B806C2
+   Parent=Material'"/Game/Hospital/Materials/Mat_Bulb_01_Base.Mat_Bulb_01_Base"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Power glow"),ParameterValue=15.000000,ExpressionGUID=1400F54344FDA5A2C90D829B4EAD878E)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Roughness"),ParameterValue=0.200000,ExpressionGUID=CD4C93EF4BB4663A34718AA4E5F7B51A)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="RefractionDepthBias"))
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=22290D304B9428937A91B5B359A5E4FB
+End Object

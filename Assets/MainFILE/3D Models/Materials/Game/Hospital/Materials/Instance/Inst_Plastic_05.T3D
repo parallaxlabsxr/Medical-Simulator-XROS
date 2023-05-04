@@ -1,0 +1,35 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Plastic_05"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=1B42B50E49BDEDCF53A72582233CE47D
+   Parent=Material'"/Game/Hospital/Materials/Mat_Base_05.Mat_Base_05"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Detail Diffuse"),ParameterValue=1.809522,ExpressionGUID=2BEF3BD14E5EEF7BBC751FBABCF38BD7)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Detail Diffuse Scale"),ParameterValue=1.410514,ExpressionGUID=F43AC1624841426A1DE100AFD7295FBC)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Detail Normal Power"),ParameterValue=-2.000000,ExpressionGUID=10FA2FF74A05D1522C683CA7C04E3068)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="Detail Normal Scale"),ParameterValue=1.400000,ExpressionGUID=62E887A246CF5B58554FB3AD7AF8EA09)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="Metallic Power"),ParameterValue=0.228571,ExpressionGUID=A44CA63C4C21ECEDB3A6219A8DB34974)
+   ScalarParameterValues(5)=(ParameterInfo=(Name="Normal Power"),ParameterValue=0.628572,ExpressionGUID=BFEE6EC7491020B4EA31B286DCF1E38F)
+   ScalarParameterValues(6)=(ParameterInfo=(Name="Roughness Power"),ParameterValue=1.628571,ExpressionGUID=5444E48A44BC37196BAF139E08DC72A0)
+   ScalarParameterValues(7)=(ParameterInfo=(Name="Scale"),ParameterValue=1.000000,ExpressionGUID=372DC97D44667D75476B36B064E7ED85)
+   ScalarParameterValues(8)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.364583,G=0.364583,B=0.364583,A=1.000000),ExpressionGUID=AAB5B9874554D7D2E748488D944DA808)
+   TextureParameterValues(0)=(ParameterInfo=(Name="Detail Diffuse Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Tile_Mask_05_D.Tex_Tile_Mask_05_D"',ExpressionGUID=CBF0AB684A859C46E485D498DF02F11B)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Detail Normal Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Tile_Mask_05_N_TGA.Tex_Tile_Mask_05_N_TGA"',ExpressionGUID=7D3D285240EB3FAF863341A8618B18A2)
+   TextureParameterValues(2)=(ParameterInfo=(Name="Diffuse Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Base_D.Tex_Base_D"',ExpressionGUID=53F2FFD44295735CF73F65B16EE3802C)
+   TextureParameterValues(3)=(ParameterInfo=(Name="Normal Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Plastic_01_N.Tex_Plastic_01_N"',ExpressionGUID=F19E056142C4FB4E248018B0BFF9112D)
+   TextureParameterValues(4)=(ParameterInfo=(Name="Roughness Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Plastic_01_R.Tex_Plastic_01_R"',ExpressionGUID=0779F58F4A104B3A09ED3EA75CCB6ED0)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=2EAEB77F41702F17096B678B749B227A
+   ReferencedTextureGuids(1)=6D97199A49A695561869FB94BC1180DD
+   ReferencedTextureGuids(2)=AEE8A5404A8DA1D75442F1BDB9A3D1FC
+   ReferencedTextureGuids(3)=45FBF0CF409224084269958C13CA37D5
+   ReferencedTextureGuids(4)=7EF7C0F947D92AC9471A5D9D04995AAE
+   CachedReferencedTextures(0)=None
+   CachedReferencedTextures(1)=Texture2D'"/Game/Hospital/Textures/Tex_Base_D.Tex_Base_D"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Hospital/Textures/Tex_Base_N.Tex_Base_N"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Hospital/Textures/Tex_Base_R.Tex_Base_R"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=C6D8D481424FCD74A556CFB45BD221B3
+End Object

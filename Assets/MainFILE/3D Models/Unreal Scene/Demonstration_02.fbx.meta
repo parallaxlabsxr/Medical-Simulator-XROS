@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: 12092ea79ec1c4348813eae6fc501faa
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fbx Default Material
+    second: {fileID: 2100000, guid: 923d4766a0c704a4c97784bad4fba361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Air_Compressor
+    second: {fileID: 2100000, guid: d950fa0ef610de44fa84fcd70e80af00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Artificial_Respiration
+    second: {fileID: 2100000, guid: 01480357498d4024bac5dec4bcd79496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Bandages
+    second: {fileID: 2100000, guid: cb4e9b46cb35b3f4d9ae33d5632b686b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Bottles_01
+    second: {fileID: 2100000, guid: 910d142a0cc2be84d8e0195acecc5f30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Bulb_01
+    second: {fileID: 2100000, guid: afe4c924d37434344b3a1a558f92c8f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Bulb_02
+    second: {fileID: 2100000, guid: e2654f69d87ab204884b4c5d01cf97e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Bulb_03
+    second: {fileID: 2100000, guid: 2dd4a3f0ea56b9a44a870f1e778ee079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Bulb_04
+    second: {fileID: 2100000, guid: cffaa98a13169434ab7e89241a56ed5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Bulb_Negatoscope
+    second: {fileID: 2100000, guid: df88335efc25ebe4d9d5ee275dc2124f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Cable_Duct
+    second: {fileID: 2100000, guid: a0acb28b4a8d26b4c903da45ee12eefb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Ceiling_02
+    second: {fileID: 2100000, guid: 16172818ce8df164eaf4e91a98a43617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Ceiling_03
+    second: {fileID: 2100000, guid: 607d06ec67cfd864aa04b645cc908e84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Color_01
+    second: {fileID: 2100000, guid: c12a9978b350ac5498670e1e584f1f86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Color_02
+    second: {fileID: 2100000, guid: 0b88e99437aab35479259314f2b35476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Defibrillator
+    second: {fileID: 2100000, guid: 569f9a8068d620444a5b8db0620d38f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Diagnostic_Devices_01
+    second: {fileID: 2100000, guid: fea2d01095428af4388c6cc8eaf97fa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Drip_Stand
+    second: {fileID: 2100000, guid: 60810ada2132bdf45abc5e126840a772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Elements_of_Electricity
+    second: {fileID: 2100000, guid: dd2a49a71dea59748a0e999285c55ff3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Emergency_Stretcher
+    second: {fileID: 2100000, guid: 68fc421ebe8824949a8428dc1eb45742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Fire_Cabinet_01
+    second: {fileID: 2100000, guid: 03c0734d2ffa45a489f4a65b9766e99b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Glass_01
+    second: {fileID: 2100000, guid: bd739241edc9b5e4888ad83050ee638c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Glass_03
+    second: {fileID: 2100000, guid: ffd36c5ca18b02c458568c2b813d3e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Glass_04
+    second: {fileID: 2100000, guid: b37e285dcb140e34f9bdfb5f790a23fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Glass_07
+    second: {fileID: 2100000, guid: 6c1096aa952d22746bd6ba8bd2354f1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Hand_Dryer
+    second: {fileID: 2100000, guid: 89218cb828de7d6469ef1ef864023042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Heating_Radiator_and_Pointers
+    second: {fileID: 2100000, guid: 9425fb83ff1c9ba46b053c968fd1a3b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Jalousie_Simplified
+    second: {fileID: 2100000, guid: 8be95e48d1bd0f249be363acdfd710fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Laboratory_Furniture_01
+    second: {fileID: 2100000, guid: 525563e0a9cb9f9458241fa2fd3b53e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Laboratory_Furniture_02
+    second: {fileID: 2100000, guid: 2fcb2d26bb26bf54293563d3995af63c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Laboratory_Furniture_03
+    second: {fileID: 2100000, guid: 4b4075846b0d452459b0243ca0004f47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Laboratory_Furniture_04
+    second: {fileID: 2100000, guid: 752384f47bc29324096404675c576a34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Medical_Instruments
+    second: {fileID: 2100000, guid: 6d310d564a21eda46b1a35d0deff578a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Medical_Monitor_01
+    second: {fileID: 2100000, guid: 76337a0ec52d2184d8fec4891d60f30e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Medicines
+    second: {fileID: 2100000, guid: d63a5ea4c755e1d408ee3568dc09767a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Negatoscope
+    second: {fileID: 2100000, guid: 1639b3ff3265a994d9e3896297bd0a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Oilcloth_Operating_Table_01
+    second: {fileID: 2100000, guid: e47e18be89d1bf846ad8e1832e36145d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Operating_Room_Door
+    second: {fileID: 2100000, guid: cc0e170e199f58949b1502051a77e467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Operating_Table
+    second: {fileID: 2100000, guid: dc01167143be2b140b86208d074cb799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Ordinary_Door_01
+    second: {fileID: 2100000, guid: 1775179992e8d0d4aa3a48c0c9e6bfcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Pallets
+    second: {fileID: 2100000, guid: a8e10ed567c9081469cc236a5b1f3193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Plastered_Wall_01
+    second: {fileID: 2100000, guid: 46f335eeb09d0114faf4a2a53a7901c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Plastic_01
+    second: {fileID: 2100000, guid: afe697cdead15e64ba9ba7b76e666c5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Plastic_05
+    second: {fileID: 2100000, guid: 090eaf4569730b04096ddb5792ffd55f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Plastic_06
+    second: {fileID: 2100000, guid: 6c11c91d4d5c4fe449749e6dc401c5c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Surgical_lamp_01
+    second: {fileID: 2100000, guid: 566f3f7a74582484997a75a0be3bc032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Table_on_Wheels_01
+    second: {fileID: 2100000, guid: a228aed7572d3554dbabf5fb763fc4c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Tile_02
+    second: {fileID: 2100000, guid: 4a491b0fecb3e1d4da1907a4aec29d5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Tile_06
+    second: {fileID: 2100000, guid: 316e4c897fe025b4a93c79495f8ae514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Trash_Can_01
+    second: {fileID: 2100000, guid: 9026186bd818415489cadf99a3728c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Trash_Can_02
+    second: {fileID: 2100000, guid: 63461ce8cb56e4b40a65941183a39a19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Vertical_Blinds
+    second: {fileID: 2100000, guid: 0d6794e0b61cbda41853f2a8bfacef58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Waiting_Chairs_01
+    second: {fileID: 2100000, guid: 59ed8bdb372a2074c91fa2cc4c70e636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Wide_Door
+    second: {fileID: 2100000, guid: 6c7f124e52d131d47ad25838352fa9ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inst_Window_01
+    second: {fileID: 2100000, guid: 9b429e34e087a3a46a8d36bb8d56b388, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_HDRISky
+    second: {fileID: 2100000, guid: 866006acbea147e4692658ab180c520c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorldGridMaterial
+    second: {fileID: 2100000, guid: da96cfedaf0928342904656a6313bbcd, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

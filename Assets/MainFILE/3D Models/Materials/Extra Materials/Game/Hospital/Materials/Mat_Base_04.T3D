@@ -1,0 +1,45 @@
+Begin Object Class=/Script/Engine.Material Name="Mat_Base_04"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      SliderMax=1.000000
+      ParameterName="Roughness"
+      ExpressionGUID=5D733749424D19EA58853C9B40F540B1
+      MaterialExpressionEditorX=2192
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=631AC4CA4317F9F55942408447DB7BBD
+      Material=Material'"Mat_Base_04"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=AFCC77A74E701581A8BA0398E2C77936
+      MaterialExpressionEditorX=2160
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=220810FB4EEB3B2C3CCAABBFC0F1BCBC
+      Material=Material'"Mat_Base_04"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(OutputIndex=3,Mask=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_9"')
+   Normal=(OutputIndex=1)
+   AmbientOcclusion=(OutputIndex=1,Mask=1,MaskR=1)
+   bUsedWithStaticLighting=True
+   bUsedWithSplineMeshes=True
+   EditorX=2416
+   EditorY=-320
+   Expressions(0)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_9"'
+   Expressions(1)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=F77CC3FA4D5272FF3600748A63C96DDF
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(440574345582452634),ParameterInfos=((Name="Roughness")),ExpressionGuids=(5D733749424D19EA58853C9B40F540B1)),RuntimeEntries[1]=(NameHashes=(12279385124011487613),ParameterInfos=((Name="Color")),ExpressionGuids=(AFCC77A74E701581A8BA0398E2C77936)),ScalarValues=(0.000000),VectorValues=((R=0.000000,G=0.000000,B=0.000000,A=1.000000)),ScalarMinMaxValues=((X=0.000000,Y=1.000000)),ScalarCurveValues=(None),ScalarCurveAtlasValues=(None),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),QualityLevelsUsed=(False,False,False,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=20209F0149B66AF74394C1A6A423F72D
+End Object

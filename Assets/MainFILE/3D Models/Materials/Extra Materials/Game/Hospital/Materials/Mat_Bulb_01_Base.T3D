@@ -1,0 +1,65 @@
+Begin Object Class=/Script/Engine.Material Name="Mat_Bulb_01_Base"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionScalarParameter'"Mat_Bulb_01_Base:MaterialExpressionScalarParameter_1"')
+      B=(Expression=MaterialExpressionVectorParameter'"Mat_Bulb_01_Base:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstB=20.000000
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=0985D25E47C11081039874AF76657E5A
+      Material=Material'"Mat_Bulb_01_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.200000
+      SliderMin=-2.000000
+      SliderMax=1.000000
+      ParameterName="Roughness"
+      ExpressionGUID=CD4C93EF4BB4663A34718AA4E5F7B51A
+      MaterialExpressionEditorX=-192
+      MaterialExpressionGuid=74AD12CF4D1B466CA97F3BA3319D3A00
+      Material=Material'"Mat_Bulb_01_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      SliderMax=50.000000
+      ParameterName="Power glow"
+      ExpressionGUID=1400F54344FDA5A2C90D829B4EAD878E
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=DB540BE54E49F1A18E104EBBF4667DCF
+      Material=Material'"Mat_Bulb_01_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+      ParameterName="Color"
+      ExpressionGUID=5B9BFB054A1A350A2AC451A2B734A23E
+      MaterialExpressionEditorX=-528
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=920FB72E42DEDE66C167BEA69B58A14B
+      Material=Material'"Mat_Bulb_01_Base"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(1)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(3)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=FEE4F8F6435350F4EACCC5A1770C08ED
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(440574345582452634,12911108892373478558),ParameterInfos=((Name="Roughness"),(Name="Power glow")),ExpressionGuids=(CD4C93EF4BB4663A34718AA4E5F7B51A,1400F54344FDA5A2C90D829B4EAD878E)),RuntimeEntries[1]=(NameHashes=(12279385124011487613),ParameterInfos=((Name="Color")),ExpressionGuids=(5B9BFB054A1A350A2AC451A2B734A23E)),ScalarValues=(0.200000,1.000000),VectorValues=((R=1.000000,G=1.000000,B=1.000000,A=0.000000)),ScalarMinMaxValues=((X=-2.000000,Y=1.000000),(X=0.000000,Y=50.000000)),ScalarCurveValues=(None,None),ScalarCurveAtlasValues=(None,None),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),QualityLevelsUsed=(False,False,False,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=F3CC4CCD46D9C4A318E4B5B80D180D24
+End Object

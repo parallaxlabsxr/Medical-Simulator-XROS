@@ -1,0 +1,39 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Ordinary_Door_02"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=8394D9D644B095529891999965AEAD6A
+   Parent=Material'"/Game/Hospital/Materials/Mat_Base_02.Mat_Base_02"'
+   ScalarParameterValues(0)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MaxRough (Blue Channel)"),ParameterValue=0.161906,ExpressionGUID=59064C5E40AAA9F704B13BB091F19376)
+   ScalarParameterValues(1)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MaxRough (Green Channel)"),ParameterValue=0.137143,ExpressionGUID=AF3A36474E301CAF55909C910F84116E)
+   ScalarParameterValues(2)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MaxRough (Red Channel)"),ParameterValue=0.342856,ExpressionGUID=821517014269BB8BC276918632A78A8F)
+   ScalarParameterValues(3)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MinRough (Blue Channel)"),ParameterValue=0.485714,ExpressionGUID=5F1EFFDE4BF889537CA3489BA9A4C5A5)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="MinRough (Green Channel)"),ParameterValue=0.419048,ExpressionGUID=E78A1DFE438C855FFD313984212C92F3)
+   ScalarParameterValues(5)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="MinRough (Red Channel)"),ParameterValue=0.171428,ExpressionGUID=61C4D24B4F6EE26C8064D4A6492A464E)
+   ScalarParameterValues(6)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Normal Power"),ExpressionGUID=A2CEA86049AC8FA4DEBF3B8AD0238247)
+   ScalarParameterValues(7)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color (Red Channel)"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ExpressionGUID=C72261D54DFFAEC0453FCB83116144E8)
+   VectorParameterValues(1)=(ParameterInfo=(Name="Color(Blue Channel)"),ParameterValue=(R=0.515625,G=0.515625,B=0.515625,A=1.000000),ExpressionGUID=1DB0E67E427730976105E581092C323D)
+   VectorParameterValues(2)=(ParameterInfo=(Name="Color(Green Channel)"),ParameterValue=(R=0.822917,G=0.822917,B=0.822917,A=1.000000),ExpressionGUID=9884242C4E6F39F78E8A1EBB295870D9)
+   TextureParameterValues(0)=(ParameterInfo=(Name="AO/Rough/Met"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Ordinary_Door_02_ARM.Tex_Ordinary_Door_02_ARM"',ExpressionGUID=36FAB72742CFE806D34C88B553C404E8)
+   TextureParameterValues(1)=(ParameterInfo=(Name="BaseColor"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Ordinary_Door_02_D.Tex_Ordinary_Door_02_D"',ExpressionGUID=B2F7D6BD45FB3F5183CBF1A69EF6BFB6)
+   TextureParameterValues(2)=(ParameterInfo=(Name="ID"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Ordinary_Door_02_ID.Tex_Ordinary_Door_02_ID"',ExpressionGUID=D046DE0648B6B70C10D334B7E64E09C6)
+   TextureParameterValues(3)=(ParameterInfo=(Name="Normal Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Ordinary_Door_02_N.Tex_Ordinary_Door_02_N"',ExpressionGUID=396F4F584032FB476E18C78531BBA06B)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=638BB3A94353B96A2DFDED81F338D539
+   ReferencedTextureGuids(1)=8467C95D4A59079DF916649BFFF8DDB3
+   ReferencedTextureGuids(2)=0DBD55BB48F620D5A69D98856A54F8F1
+   ReferencedTextureGuids(3)=468E896D4FC06B9B1DDA39B5AE672C38
+   ReferencedTextureGuids(4)=63B28EC24904C818939C01A4DF9E50F3
+   CachedReferencedTextures(0)=Texture2D'"/Game/Hospital/Textures/Tex_Base_R.Tex_Base_R"'
+   CachedReferencedTextures(1)=None
+   CachedReferencedTextures(2)=Texture2D'"/Game/Hospital/Textures/Tex_Base_D.Tex_Base_D"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Hospital/Textures/Tex_Base_N.Tex_Base_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Tex_Ordinary_Door_02_ARM",TextureReference=/Game/Hospital/Textures/Tex_Ordinary_Door_02_ARM.Tex_Ordinary_Door_02_ARM)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Tex_Ordinary_Door_02_D",TextureReference=/Game/Hospital/Textures/Tex_Ordinary_Door_02_D.Tex_Ordinary_Door_02_D)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Tex_Ordinary_Door_02_N",TextureReference=/Game/Hospital/Textures/Tex_Ordinary_Door_02_N.Tex_Ordinary_Door_02_N)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=923EB04B40EDD891F5265EA84D486060
+End Object

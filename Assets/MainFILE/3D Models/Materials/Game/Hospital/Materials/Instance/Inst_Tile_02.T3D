@@ -1,0 +1,28 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Tile_02"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=FFF5F36A43723CE5F08C66B10E4A78AA
+   Parent=Material'"/Game/Hospital/Materials/Mat_Base_01.Mat_Base_01"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Normal Power"),ParameterValue=-0.500000,ExpressionGUID=BFEE6EC7491020B4EA31B286DCF1E38F)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Roughness Power"),ParameterValue=3.000000,ExpressionGUID=5444E48A44BC37196BAF139E08DC72A0)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Scale"),ParameterValue=1.000000,ExpressionGUID=372DC97D44667D75476B36B064E7ED85)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ExpressionGUID=AAB5B9874554D7D2E748488D944DA808)
+   TextureParameterValues(0)=(ParameterInfo=(Name="Diffuse Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Tile_02_D.Tex_Tile_02_D"',ExpressionGUID=53F2FFD44295735CF73F65B16EE3802C)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Tile_02_N.Tex_Tile_02_N"',ExpressionGUID=F19E056142C4FB4E248018B0BFF9112D)
+   TextureParameterValues(2)=(ParameterInfo=(Name="Roughness Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Tile_02_R.Tex_Tile_02_R"',ExpressionGUID=0779F58F4A104B3A09ED3EA75CCB6ED0)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=638BB3A94353B96A2DFDED81F338D539
+   ReferencedTextureGuids(1)=C5BEF90247F276406AE915AD41A63704
+   ReferencedTextureGuids(2)=218A4E854CF6A1E359392DB21622E0AE
+   ReferencedTextureGuids(3)=63FFDD404D2DF615E906D795BAB2A0DB
+   CachedReferencedTextures(0)=None
+   CachedReferencedTextures(1)=Texture2D'"/Game/Hospital/Textures/Tex_Base_D.Tex_Base_D"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Hospital/Textures/Tex_Base_N.Tex_Base_N"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Hospital/Textures/Tex_Base_R.Tex_Base_R"'
+   LightmassSettings=(ExportResolutionScale=0.300000,bOverrideExportResolutionScale=True)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=04199C044E2978D20C13ECADA8AD35F0
+End Object

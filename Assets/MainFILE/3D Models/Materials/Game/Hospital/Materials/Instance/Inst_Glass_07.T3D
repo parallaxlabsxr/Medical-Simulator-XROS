@@ -1,0 +1,28 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Glass_07"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=4E80483C4AE291A3F128FBBFB643668D
+   Parent=Material'"/Game/Hospital/Materials/Mat_Glass_02.Mat_Glass_02"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Roughness"),ParameterValue=14.744092,ExpressionGUID=AC3CB30B4BDF356DAB6ACD86425E82C2)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Normal Power"),ParameterValue=-0.085714,ExpressionGUID=C2CA79DC43CED52781C6C2AB6D27F3FC)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Opaciti"),ParameterValue=0.638095,ExpressionGUID=A621CF95491856B7DC7D3C8659295C35)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="Scale"),ParameterValue=1.290179,ExpressionGUID=890A98484E35A66634B097B5F3090F54)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="Specular Power"),ParameterValue=1.000000,ExpressionGUID=01B518C845DECF4937C106B6CEA3760E)
+   ScalarParameterValues(5)=(ParameterInfo=(Name="Turn"),ParameterValue=0.242857,ExpressionGUID=4F7638394E4AA1FCEA70A183A0ECCD66)
+   ScalarParameterValues(6)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Glass Color"),ParameterValue=(R=1.000000,G=0.966687,B=0.458333,A=1.000000),ExpressionGUID=2E17B9E147773E173DFF9A8785DF23CE)
+   TextureParameterValues(0)=(ParameterInfo=(Name="Roughness Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Roughness_01_R.Tex_Roughness_01_R"',ExpressionGUID=75D660CF41949F7721794C84985C067E)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=DC2D051346C2FDFB1351969A9786FADD
+   ReferencedTextureGuids(1)=0308515A444DE276E7EBE49C27B6F144
+   ReferencedTextureGuids(2)=39D455634F1ED9AE6F0D1FBE55489170
+   ReferencedTextureGuids(3)=027790CF4844AB45AD8A90B137864AFB
+   CachedReferencedTextures(0)=Texture2D'"/Game/Hospital/Textures/Tex_Glass_R_01.Tex_Glass_R_01"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Hospital/Textures/Tex_Glass_D_01.Tex_Glass_D_01"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Hospital/Textures/Tex_Glass_N_01.Tex_Glass_N_01"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Hospital/Textures/Tex_Roughness_01_R.Tex_Roughness_01_R"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=70B4A90F4355064510813BB179774636
+End Object

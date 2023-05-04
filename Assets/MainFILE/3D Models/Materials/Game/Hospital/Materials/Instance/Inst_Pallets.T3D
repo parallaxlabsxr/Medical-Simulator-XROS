@@ -1,0 +1,36 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Inst_Pallets"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=A2380ED249A0B52D4FA37FB013C1FF8F
+   Parent=Material'"/Game/Hospital/Materials/Mat_Base_02.Mat_Base_02"'
+   bHasStaticPermutationResource=True
+   ScalarParameterValues(0)=(ParameterInfo=(Name="MaxRough (Blue Channel)"),ParameterValue=0.342857,ExpressionGUID=59064C5E40AAA9F704B13BB091F19376)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="MaxRough (Green Channel)"),ParameterValue=0.219048,ExpressionGUID=AF3A36474E301CAF55909C910F84116E)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="MaxRough (Red Channel)"),ParameterValue=0.314285,ExpressionGUID=821517014269BB8BC276918632A78A8F)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="MinRough (Blue Channel)"),ParameterValue=0.552381,ExpressionGUID=5F1EFFDE4BF889537CA3489BA9A4C5A5)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="MinRough (Green Channel)"),ParameterValue=0.504762,ExpressionGUID=E78A1DFE438C855FFD313984212C92F3)
+   ScalarParameterValues(5)=(ParameterInfo=(Name="MinRough (Red Channel)"),ParameterValue=0.523809,ExpressionGUID=61C4D24B4F6EE26C8064D4A6492A464E)
+   ScalarParameterValues(6)=(ParameterInfo=(Name="Normal Power"),ParameterValue=-0.500000,ExpressionGUID=A2CEA86049AC8FA4DEBF3B8AD0238247)
+   ScalarParameterValues(7)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color (Red Channel)"),ParameterValue=(R=0.598958,G=0.598403,B=0.586481,A=1.000000),ExpressionGUID=C72261D54DFFAEC0453FCB83116144E8)
+   VectorParameterValues(1)=(ParameterInfo=(Name="Color(Blue Channel)"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ExpressionGUID=1DB0E67E427730976105E581092C323D)
+   VectorParameterValues(2)=(ParameterInfo=(Name="Color(Green Channel)"),ParameterValue=(R=0.848958,G=0.848958,B=0.848958,A=1.000000),ExpressionGUID=9884242C4E6F39F78E8A1EBB295870D9)
+   TextureParameterValues(0)=(ParameterInfo=(Name="AO/Rough/Met"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Pallets_ARM.Tex_Pallets_ARM"',ExpressionGUID=36FAB72742CFE806D34C88B553C404E8)
+   TextureParameterValues(1)=(ParameterInfo=(Name="BaseColor"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Pallets_D.Tex_Pallets_D"',ExpressionGUID=B2F7D6BD45FB3F5183CBF1A69EF6BFB6)
+   TextureParameterValues(2)=(ParameterInfo=(Name="ID"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Pallets_ID.Tex_Pallets_ID"',ExpressionGUID=D046DE0648B6B70C10D334B7E64E09C6)
+   TextureParameterValues(3)=(ParameterInfo=(Name="Normal Map"),ParameterValue=Texture2D'"/Game/Hospital/Textures/Tex_Pallets_N.Tex_Pallets_N"',ExpressionGUID=396F4F584032FB476E18C78531BBA06B)
+   BasePropertyOverrides=(bOverride_TwoSided=True,TwoSided=True,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=638BB3A94353B96A2DFDED81F338D539
+   ReferencedTextureGuids(1)=132337CA4C7C0FF1E301CDAA42AF2524
+   ReferencedTextureGuids(2)=1E41736748F310F627AF54ABB7F755BC
+   ReferencedTextureGuids(3)=25D76AA940B5C3612DADA7AC3D455B8B
+   ReferencedTextureGuids(4)=7C8F9798422D63AA4AFA079CA9AA8A94
+   CachedReferencedTextures(0)=Texture2D'"/Game/Hospital/Textures/Tex_Base_R.Tex_Base_R"'
+   CachedReferencedTextures(1)=None
+   CachedReferencedTextures(2)=Texture2D'"/Game/Hospital/Textures/Tex_Base_D.Tex_Base_D"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Hospital/Textures/Tex_Base_N.Tex_Base_N"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=9FBABB89429C2B58F30A7EACCBD9D630
+End Object
